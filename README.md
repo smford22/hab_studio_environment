@@ -2,6 +2,8 @@
 This simple cookbook is designed to get a VM to do some habitat development on. It is ideal for people on older versions of Windows (7,8, etc) That does not have a hardware to run Docker CE, which the habitat studio requires.
 
 ## Prereqs
+In order to run this cookbook, you must first install the following software:
+
 - [ChefDK](http://downloads.chef.io/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Vagrant](https://www.vagrantup.com/)
