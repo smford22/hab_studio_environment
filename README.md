@@ -19,3 +19,5 @@ This repo also has a `shared` directory that gets mounted in the guest VM at `/h
 5. `[vagrant@default-centos-73 ~]$hab setup` <-- This will setup your origin and key
 6. `[vagrant@default-centos-73 ~]$hab studio enter`
 
+Once converged you will have a clean installation of Habitat. This cookbook also sets up Docker on the guest via the [Docker cookbook](https://github.com/chef-cookbooks/docker).
+
