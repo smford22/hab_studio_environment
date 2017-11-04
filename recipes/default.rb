@@ -17,3 +17,13 @@ end
 docker_service 'default' do
   action [:create, :start]
 end
+
+# Install Git
+git_client 'default' do
+  action :install
+end
+
+# Install some basic utils
+%w(tree curl).each do |p|
+  package p
+end
