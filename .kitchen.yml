@@ -1,6 +1,9 @@
 ---
 driver:
   name: vagrant
+  network:
+    - ["private_network", {ip: "192.168.33.33"}]
+    
   customize:
     memory: 1024
     cpus: 2
